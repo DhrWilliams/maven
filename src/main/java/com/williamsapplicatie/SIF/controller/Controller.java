@@ -10,7 +10,7 @@ public class Controller {
 	
 	
 	@RequestMapping("/tomcat")
-	public String intro() {
+	public String intro2() {
 		
 		return "Het werkt goed";
 	}
