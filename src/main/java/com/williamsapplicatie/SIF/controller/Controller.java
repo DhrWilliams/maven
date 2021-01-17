@@ -8,11 +8,10 @@ public class Controller {
 	
 	
 	
+@RequestMapping("/tomcat")
+public String intro8() {
 	
-	@RequestMapping("/tomcat")
-	public String intro() {
-		
-		return "Het werkt goed";
-	}
+	return "Het werkt goed";
+}
 
 }
